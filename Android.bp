@@ -1,0 +1,12 @@
+//
+// Copyright (C) 2023 droid-ng
+//
+// SPDX-License-Identifier: BSD-2-Clause
+//
+
+java_library {
+    name: "commonmark-java",
+    host_supported: true,
+    sdk_version: "current",
+    srcs: ["src/**/*.java"],
+}
